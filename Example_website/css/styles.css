@@ -117,17 +117,37 @@ h2{
     padding: 5% 2%;
 }
 
+#cta{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 5% 5%;
+    
 
-@media (max-width:940px){
+}
+
+#cta-text{
+    padding: 5% 0;
+}
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 5% 5%;
+}
+
+p{
+    opacity: 0.5;
+}
+
+@media (max-width:990px){
 
     #title{
         text-align: center;
     }
     
     .title-image{
-        transform: rotate(0);
-        /* width: 20%; */
-
+        transform: rotate(0); 
+        padding: 15% 0;
+        width: 50%;
     }
 
 }
