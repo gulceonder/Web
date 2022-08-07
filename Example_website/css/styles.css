@@ -3,6 +3,7 @@
 
 body{
     font-family: "Montserrat";
+    text-align: center;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -10,14 +11,10 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 }
 
-h3{
-    font-family: "Montserrat";
-    font-weight: 700;
-}
+
 
 h2{
-    font-family: "Montserrat";
-    font-weight: 700;
+
     font-size: 2.5rem;
 }
 
@@ -25,6 +22,7 @@ p{
     opacity: 0.5;
 }
 
+/* title section */
 .big-heading{
     font-family: "Montserrat";
     font-size: 3rem ;
@@ -33,9 +31,23 @@ p{
     font-weight: 900;
 
 }
+
 #title{
+
+    text-align: left;
+}
+.title-image{
+    width: 70% ;
+    transform: rotate(15deg);
+    margin: 0 0% 20% 5%;
+}
+/* 
+container stuff */
+.colored-sec{
     background-color: blanchedalmond;
 }
+.blank-sec{}
+
 
 .container-fluid{
     padding: 3% 10%;
@@ -65,10 +77,10 @@ p{
     margin: 0 1%;
 }
 
-.title-image{
-    width: 70% ;
-    transform: rotate(15deg);
-    margin: 0 0% 20% 5%;
+
+/* features section */
+#feature-title{
+    font-size: 1.5rem;
 }
 
 .fa-solid{
@@ -91,11 +103,10 @@ p{
 
 .link:hover { color: grey; } /* CSS link color */
 
-
+/* testimonial section */
 #testimonials{
 
-    text-align: center;
-    background-color: rgb(247, 219, 177);
+    background-color: #ffe3bc;
     
 }
 
@@ -107,8 +118,9 @@ p{
 
 #press{
     padding: 5% 0%;
-    text-align: center;
-    background-color: rgb(247, 219, 177);
+    background-color: #ffe3bc;
+
+
 }
 
 .presslogo{
@@ -121,15 +133,13 @@ p{
 
 #pricing{
     padding: 100px;
-    text-align: center;
 }
 .price-col{
     padding: 5% 2%;
 }
 
 #cta{
-    text-align: center;
-    background-color: blanchedalmond;
+
     padding: 5% 5%;
     
 
@@ -140,10 +150,9 @@ p{
 }
 #footer{
     background-color: white;
-    text-align: center;
+
     padding: 5% 5%;
 }
-
 
 
 @media (max-width:990px){
